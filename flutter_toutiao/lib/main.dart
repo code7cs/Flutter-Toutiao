@@ -52,8 +52,8 @@ class _PagesState extends State<Pages> {
         onTap: onTapTab,
         items: [
           BottomNavigationBarItem(
-              icon: Icon(Icons.fiber_new), title: Text("新闻")),
-          BottomNavigationBarItem(icon: Icon(Icons.camera), title: Text("发现")),
+              icon: Icon(Icons.fiber_new), label: "新闻"),
+          BottomNavigationBarItem(icon: Icon(Icons.camera), label: "发现"),
         ],
       ),
     );

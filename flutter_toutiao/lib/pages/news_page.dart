@@ -68,7 +68,7 @@ class _NewsPageState extends State<NewsPage> {
     setState(() {
       _channelInfo = c;
     });
-    print("_select $c");
+    print("_select ${c.name}");
     _getCurrentNews();
 //    print(res);
   }
